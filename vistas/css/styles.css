@@ -1,0 +1,89 @@
+body, button {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    margin: 0;
+    --amarillo: #FFF200;
+}
+
+.navbar {
+    background-color: var(--amarillo);
+    padding: 10px;
+    display: flex;
+}
+
+.navbar-logo {
+    display: flex;
+}
+
+.logo-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-options {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-link, .btn-black {
+    text-decoration: none;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.navbar-link {
+    color: black;
+}
+
+.btn-black, .btn-amarillo {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-black {
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.btn-amarillo {
+    border-color: var(--amarillo);
+    background-color: var(--amarillo);
+    color: black;
+}
+
+.login-menu {
+    display: flex;
+}
+
+.formulario {
+    background-color: black;
+    border-radius: 15px;
+    margin: 5rem auto;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.form-input {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+#btn-login {
+    margin: 0 auto 10px auto;
+    width: 40%;
+    font-size: 18px;
+}
