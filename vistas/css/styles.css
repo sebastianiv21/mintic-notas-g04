@@ -52,6 +52,7 @@ body, button {
     border-color: var(--amarillo);
     background-color: var(--amarillo);
     color: black;
+    text-decoration: none;
 }
 
 .login-menu {
