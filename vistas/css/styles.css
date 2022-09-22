@@ -127,7 +127,7 @@ body, button {
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .item-barra {
@@ -137,4 +137,50 @@ body, button {
 .item-barra-activo {
     color: black;
     background-color: var(--amarillo);
+}
+
+.me-1 {
+    margin-right: 1rem;
+}
+
+.centrar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-info {
+    background-color: var(--amarillo);
+    padding: 0.25rem 0;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+table {
+    width: 300px;
+}
+
+th {
+    background-color: var(--amarillo);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mt-1{
+    margin-top: 3rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
 }

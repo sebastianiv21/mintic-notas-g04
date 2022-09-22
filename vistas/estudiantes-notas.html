@@ -36,31 +36,30 @@
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
+    <main class="main-lateral">
       <!--Barra lateral-->
-      <section>
-        <a href="./estudiantes-info.html"
-          ><img src="./assets/info.svg" alt="info" width="30" /> Información
+      <section class="barra-lateral">
+        <a class="item-barra" href="./estudiantes-info.html"
+          ><i class="fa-solid fa-circle-info fa-2x me-1"></i> Información
           personal</a
         >
-        <a href="./estudiantes-materias.html"
-          ><img src="./assets/book.svg" alt="book" width="25" /> Materias
-          matriculadas</a
+        <a class="item-barra-activo" href="./estudiantes-materias.html"
+          ><i class="fa-solid fa-book fa-xl me-1"></i>Materias matriculadas</a
         >
       </section>
-      <!--Login menu-->
-      <section>
-        <h2>Nota Materia</h2>
-        <div>
+      <!--Notas de la materia-->
+      <section class="centrar">
+        <h2>Notas Materia n</h2>
+        <div class="container-info mb-2">
           <ul>
             <li>Nota 1</li>
             <li>Nota 2</li>
             <li>Nota 3</li>
             <li>Nota 4</li>
           </ul>
-          <span>Nota Final</span>
+          <p>Nota Final</p>
         </div>
-        <a href="./estudiantes-materias.html" class="btn-black">Regresar</a>
+        <a href="./estudiantes-materias.html" class="btn-black mt-3">Regresar</a>
       </section>
     </main>
   </body>

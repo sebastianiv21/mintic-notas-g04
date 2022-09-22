@@ -14,7 +14,10 @@
       rel="stylesheet"
     />
     <!--Fontawesome icons-->
-    <script src="https://kit.fontawesome.com/18e562bbc7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/18e562bbc7.js"
+      crossorigin="anonymous"
+    ></script>
     <!--CSS Styles-->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>UniAndes Notas</title>
@@ -36,20 +39,20 @@
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
+    <main class="main-lateral">
       <!--Barra lateral-->
-      <section>
-        <a href="./estudiantes-info.html"
-          ><img src="./assets/info.svg" alt="info" width="30" /> Información
+      <section class="barra-lateral">
+        <a class="item-barra" href="./estudiantes-info.html"
+          ><i class="fa-solid fa-circle-info fa-2x me-1"></i> Información
           personal</a
         >
-        <a href="./estudiantes-materias.html"
-          ><img src="./assets/book.svg" alt="book" width="25" /> Materias
-          matriculadas</a
+        <a class="item-barra-activo" href="./estudiantes-materias.html"
+          ><i class="fa-solid fa-book fa-xl me-1"></i>Materias matriculadas</a
         >
       </section>
       <!--Listado de materias-->
-      <section>
+      <!--
+      <section class="perfil-estudiante">
         <h2>Listado de Materias</h2>
         <div>
           <ul>
@@ -58,6 +61,40 @@
             <li>Materia 3</li>
             <li>Materia 4</li>
           </ul>
+        </div>
+      </section>
+    -->
+      <section class="centrar">
+        <h2>Listado de Materias</h2>
+        <div class="d-flex">
+          <table>
+            <thead>
+              <th>Asignatura</th>
+              <th>Notas</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Calculo</td>
+                <td>8/10</td>
+              </tr>
+              <tr>
+                <td>Matematicas</td>
+                <td>9/10</td>
+              </tr>
+              <tr>
+                <td>Matematicas</td>
+                <td>5/10</td>
+              </tr>
+              <tr>
+                <td>Matematicas</td>
+                <td>9.5/10</td>
+              </tr>
+              <tr>
+                <td>Calculo</td>
+                <td>2/10</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </main>
