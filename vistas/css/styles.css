@@ -142,6 +142,12 @@ body, button {
 .me-1 {
     margin-right: 1rem;
 }
+.me-2{
+    margin-right: 5.5rem;
+}
+.me-3{
+    margin-right: 1.5rem;
+}
 
 .centrar {
     margin: 0 auto;
@@ -153,6 +159,10 @@ body, button {
     padding: 0.25rem 0;
     border-radius: 15px;
     margin-top: 1rem;
+}
+.auxiliar{
+    width: 300px;
+    padding: 1rem;
 }
 
 .d-flex {
