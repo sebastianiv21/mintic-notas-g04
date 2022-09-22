@@ -14,7 +14,10 @@
       rel="stylesheet"
     />
     <!--Fontawesome icons-->
-    <script src="https://kit.fontawesome.com/18e562bbc7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/18e562bbc7.js"
+      crossorigin="anonymous"
+    ></script>
     <!--CSS Styles-->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>UniAndes Notas</title>
@@ -32,34 +35,45 @@
       <div class="navbar-options">
         <a href="./about.html" class="navbar-link">Quiénes somos</a>
         <a href="./contacto.html" class="navbar-link">Contáctenos</a>
-        <a href="./contacto.html" class="navbar-link">Docente</a>
+        <a href="./contacto.html" class="navbar-link">Superadmin</a>
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
-        <section>
-          <a href="./superadministrador-gestionar-estudiantes.html"><img src="./assets/user.svg" alt="user" width="30" /> Listado de estudiantes</a>
-          <a href="./superadministrador-gestionar-docentes.html"><img src="./assets/user.svg" alt="user" width="25" /> Listado de docentes</a>
-          <a href="./superadministrador-gestionar-materia.html"><img src="./assets/book.svg" alt="book" width="25" /> Listado materias</a>
-          </section>
-
-          <section>
-            <h2>Gestionar docentes</h2>
-            <div>
-            <ul>
-                <li>Docente 1</li>
-                <li>Docente 2</li>
-                <li>Docente 3</li>
-                <li>Docente 4</li>
-                <li>Docente 5</li>
-                <li>Docente n</li>
-            </ul>
+    <main class="main-lateral">
+      <!--Barra lateral-->
+      <section class="barra-lateral">
+        <a
+          class="item-barra"
+          href="./superadministrador-gestionar-estudiantes.html"
+          ><i class="fa-solid fa-graduation-cap"></i> Listado de estudiantes</a
+        >
+        <a
+          class="item-barra-activo"
+          href="./superadministrador-gestionar-docentes.html"
+          ><i class="fa-solid fa-chalkboard-user"></i> Listado de docentes</a
+        >
+        <a class="item-barra" href="./superadministrador-gestionar-materia.html"
+          ><i class="fa-solid fa-book"></i> Listado de materias</a
+        >
+      </section>
+      <!--Gestionar docentes-->
+      <section class="centrar">
+        <h2>Gestionar docentes</h2>
+        <div>
+          <ul>
+            <li class="back-1">Docente 2</li>
+            <li class="back-1">Docente 1</li>
+            <li class="back-1">Docente 3</li>
+            <li class="back-1">Docente 4</li>
+            <li class="back-1">Docente 5</li>
+            <li class="back-1">Docente n</li>
+          </ul>
         </div>
         <!--boton-->
         <div>
-            <a href="" class="btn-amarillo">Agregar</a>
+          <a href="" class="btn-black">Agregar</a>
         </div>
-          </section>
+      </section>
     </main>
   </body>
 </html>

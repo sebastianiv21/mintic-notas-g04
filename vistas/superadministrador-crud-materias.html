@@ -32,32 +32,42 @@
       <div class="navbar-options">
         <a href="./about.html" class="navbar-link">Quiénes somos</a>
         <a href="./contacto.html" class="navbar-link">Contáctenos</a>
-        <a href="./contacto.html" class="navbar-link">Docente</a>
+        <a href="./contacto.html" class="navbar-link">Superadmin</a>
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
-        <!--barra lateral-->
-        <section>
-            <a href="./superadministrador-crud-estudiantes.html"><img src="./assets/user.svg" alt="user" width="30" /> Listado de estudiantes</a>
-            <a href="./superadministrador-crud-docentes.html"><img src="./assets/user.svg" alt="user" width="25" /> Listado de docentes</a>
-            <a href="./superadministrador-crud-materias.html"><img src="./assets/book.svg" alt="book" width="25" /> Listado materias</a>
-          </section>
-          <!--perfil del estudiante-->
-          <section>
-            <h2> Editar materia</h2>
-            <div>
+    <main class="main-lateral">
+      <!--barra lateral-->
+      <section class="barra-lateral">
+        <a
+          class="item-barra"
+          href="./superadministrador-gestionar-estudiantes.html"
+          ><i class="fa-solid fa-graduation-cap"></i> Listado de estudiantes</a
+        >
+        <a
+          class="item-barra"
+          href="./superadministrador-gestionar-docentes.html"
+          ><i class="fa-solid fa-chalkboard-user"></i> Listado de docentes</a
+        >
+        <a class="item-barra-activo" href="./superadministrador-gestionar-materia.html"
+          ><i class="fa-solid fa-book"></i> Listado de materias</a
+        >
+      </section>
+          <!--perfil de la materia-->
+          <section class="centrar">
+            <h2>Editar materia</h2>
+            <div class="container-info mb-3 p-inline-1">
                 <form>
-                    <div>
+                    <div class="mb-2">
                 <h3>Información basica</h3>
                 <label for ="nomb">Nombre de la materia</label>
                 <input type="text"name = "nomb" id = "nomb">
             </div>
-            <div>
+            <div class="mb-2">
                 <label for ="nom">Nombre del docente</label>
                 <input type="text"name = "nom" id = "nom">
             </div>
-            <div>
+            <div class="mb-2">
                 <label for ="id">Id materia</label>
                 <input type="int"name = "id" id = "id">
             </div>

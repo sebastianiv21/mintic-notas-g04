@@ -32,37 +32,47 @@
       <div class="navbar-options">
         <a href="./about.html" class="navbar-link">Quiénes somos</a>
         <a href="./contacto.html" class="navbar-link">Contáctenos</a>
-        <a href="./contacto.html" class="navbar-link">Pepito perez</a>
+        <a href="./contacto.html" class="navbar-link">Superadmin</a>
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
+    <main class="main-lateral">
         <!--barra lateral-->
-        <section>
-          <a href="./superadministrador-crud-estudiantes.html"><img src="./assets/user.svg" alt="user" width="30" /> Listado de estudiantes</a>
-          <a href="./superadministrador-crud-docentes.html"><img src="./assets/user.svg" alt="user" width="25" /> Listado de docentes</a>
-          <a href="./superadministrador-crud-materias.html"><img src="./assets/book.svg" alt="book" width="25" /> Listado materias</a>
-          </section>
+        <section class="barra-lateral">
+          <a
+            class="item-barra-activo"
+            href="./superadministrador-gestionar-estudiantes.html"
+            ><i class="fa-solid fa-graduation-cap"></i> Listado de estudiantes</a
+          >
+          <a
+            class="item-barra"
+            href="./superadministrador-gestionar-docentes.html"
+            ><i class="fa-solid fa-chalkboard-user"></i> Listado de docentes</a
+          >
+          <a class="item-barra" href="./superadministrador-gestionar-materia.html"
+            ><i class="fa-solid fa-book"></i> Listado de materias</a
+          >
+        </section>
           <!--perfil del estudiante-->
-          <section>
+          <section class="centrar">
             <h2> Perfil del estudiante</h2>
-            <img src="assets/img/estudiante.svg" alt="Foto Estudiante">
-            <div>
+            <img src="assets/img/estudiante.svg" alt="Foto Estudiante" width="155">
+            <div class="container-info mb-3">
                 <form>
-                    <div>
-                <h3>Información basica</h3>
-                <label for ="nom">Nombre</label>
+                    <div class="mb-2">
+                <h3>Información básica</h3>
+                <label for ="nom">Nombres</label>
                 <input type="text"name = "nom" id = "nom">
             </div>
-            <div>
-                <label for ="apellidos">Apeliidos</label>
+            <div class="mb-2">
+                <label for ="apellidos">Apellidos</label>
                 <input type="text"name = "apellidos" id = "apellidos">
             </div>
-            <div>
+            <div class="mb-2">
                 <label for ="Edad">Edad</label>
                 <input type="int"name = "Edad" id = "Edad">
             </div>
-            <div>
+            <div class="mb-2">
                 <label for ="Id">Id</label>
                 <input type="int"name = "Id" id = "Id">
             </div>

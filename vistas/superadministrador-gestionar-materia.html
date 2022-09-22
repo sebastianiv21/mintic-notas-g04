@@ -32,32 +32,43 @@
       <div class="navbar-options">
         <a href="./about.html" class="navbar-link">Quiénes somos</a>
         <a href="./contacto.html" class="navbar-link">Contáctenos</a>
-        <a href="./contacto.html" class="navbar-link">Docente</a>
+        <a href="./contacto.html" class="navbar-link">Superadmin</a>
         <a href="./index.html" class="btn-black">Cerrar sesión</a>
       </div>
     </nav>
-    <main>
-        <section>
-            <a href="./superadministrador-gestionar-estudiantes.html"><img src="./assets/user.svg" alt="user" width="30" /> Listado de estudiantes</a>
-            <a href="./superadministrador-gestionar-docentes.html"><img src="./assets/user.svg" alt="user" width="25" /> Listado de docentes</a>
-            <a href="./superadministrador-gestionar-materia.html"><img src="./assets/book.svg" alt="book" width="25" /> Listado materias</a>
-          </section>
-
-          <section>
+    <main class="main-lateral">
+      <!--Barra lateral-->
+      <section class="barra-lateral">
+        <a
+          class="item-barra"
+          href="./superadministrador-gestionar-estudiantes.html"
+          ><i class="fa-solid fa-graduation-cap"></i> Listado de estudiantes</a
+        >
+        <a
+          class="item-barra"
+          href="./superadministrador-gestionar-docentes.html"
+          ><i class="fa-solid fa-chalkboard-user"></i> Listado de docentes</a
+        >
+        <a class="item-barra-activo" href="./superadministrador-gestionar-materia.html"
+          ><i class="fa-solid fa-book"></i> Listado de materias</a
+        >
+      </section>
+      <!--Gestionar materia-->
+          <section class="centrar">
             <h2>Gestionar materias</h2>
             <div>
             <ul>
-                <li>Nombre materia 1</li>
-                <li>Nombre materia 2</li>
-                <li>Nombre materia 3</li>
-                <li>Nombre materia 4</li>
-                <li>Nombre materia 5</li>
-                <li>Nombre materia n</li>
+                <li class="back-1">Nombre materia 1</li>
+                <li class="back-1">Nombre materia 2</li>
+                <li class="back-1">Nombre materia 3</li>
+                <li class="back-1">Nombre materia 4</li>
+                <li class="back-1">Nombre materia 5</li>
+                <li class="back-1">Nombre materia n</li>
             </ul>
         </div>
         <!--boton-->
         <div>
-            <a href="" class="btn-amarillo">Agregar</a>
+            <a href="" class="btn-black">Agregar</a>
         </div>
           </section>
     </main>
