@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Webpage icon-->
+    <link rel="icon" href="./assets/img/andes-ico.ico" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>UniAndes Notas</title>
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="./assets/img/andes-logo.png" alt="UniAndes-logo" width="40" />
+        <div class="logo-text">
+          <span>UniAndes</span>
+          <span>Notas</span>
+        </div>
+      </div>
+      <div class="navbar-options">
+        <a href="./about.html" class="navbar-link">Quiénes somos</a>
+        <a href="./contacto.html" class="navbar-link">Contáctenos</a>
+        <a href="./contacto.html" class="navbar-link">Docente</a>
+        <a href="./index.html" class="btn-black">Cerrar sesión</a>
+      </div>
+    </nav>
+    <main>
+        <!--barra lateral-->
+        <section>
+            <a href="./superadministrador-crud-estudiantes.html"><img src="./assets/user.svg" alt="user" width="30" /> Listado de estudiantes</a>
+            <a href="./superadministrador-crud-docentes.html"><img src="./assets/user.svg" alt="user" width="25" /> Listado de docentes</a>
+            <a href="./superadministrador-crud-materias.html"><img src="./assets/book.svg" alt="book" width="25" /> Listado materias</a>
+          </section>
+          <!--perfil del estudiante-->
+          <section>
+            <h2> Editar materia</h2>
+            <div>
+                <form>
+                    <div>
+                <h3>Información basica</h3>
+                <label for ="nomb">Nombre de la materia</label>
+                <input type="text"name = "nomb" id = "nomb">
+            </div>
+            <div>
+                <label for ="nom">Nombre del docente</label>
+                <input type="text"name = "nom" id = "nom">
+            </div>
+            <div>
+                <label for ="id">Id materia</label>
+                <input type="int"name = "id" id = "id">
+            </div>
+            </form>
+            </div> 
+            <!--botones-->
+            <div>
+                <a href="" class = "btn-black">Agregar</a>
+                <a href="" class = "btn-amarillo">Eliminar</a>
+                <a href="" class = "btn-black">Regresar</a>
+            </div>   
+          </section>
+        </body>
+    </main>
+</html>

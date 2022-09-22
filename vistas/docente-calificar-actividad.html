@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Webpage icon-->
+        <link rel="icon" href="./assets/img/andes-ico.ico" />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <!--CSS Styles-->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>UniAndes Notas</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-logo">
+              <img src="./assets/img/andes-logo.png" alt="UniAndes-logo" width="40" />
+              <div class="logo-text">
+                <span>UniAndes</span>
+                <span>Notas</span>
+              </div>
+            </div>
+            <div class="navbar-options">
+              <a href="./about.html" class="navbar-link">Quiénes somos</a>
+              <a href="./contacto.html" class="navbar-link">Contáctenos</a>
+              <a href="./contacto.html" class="navbar-link">Docente</a>
+              <a href="./index.html" class="btn-black">Cerrar sesión</a>
+            </div>
+          </nav>
+          <main>
+            <!--formulario calificar actividad-->
+            <section>
+                <h2> Materia 1- actividad 1</h2>
+                <h3>Estudiante 1</h3>
+                <div>
+                    <form>
+                        <div>
+                        <label for="nota">Nota</label>
+                        <input type="double" name="nota" id="nota">
+                        </div>
+                        <div>
+                            <label for ="retroalimentacion">Retoalimentacion</label>
+                            <input type = "text" name = "retroalimentacion" id ="retro"> 
+                        </div>
+                    </form>
+                </div>
+
+                <div>
+                    <!--Botones-->
+                    <!--Este bton me califica la actividad-->
+                    <a href="" class="btn-amarillo">Calificar</a>
+                    <!--Este bton me califica la actividad-->
+                    <a href="./docente-listado-estudiantes-actividad.html" class = "btn-black">Regresar</a>
+                </div>
+            </section>
+          </main>
+    </body>
+</html>
