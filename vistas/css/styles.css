@@ -110,3 +110,31 @@ body, button {
 .ms {
     margin-left: 1rem;
 }
+
+.main-lateral, .barra-lateral {
+    display: flex;
+}
+
+.barra-lateral {
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: black;
+}
+
+.item-barra, .item-barra-activo {
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-barra {
+    color: white;
+}
+
+.item-barra-activo {
+    color: black;
+    background-color: var(--amarillo);
+}
